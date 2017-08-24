@@ -1,0 +1,60 @@
+{
+    "Angular page": {
+        "prefix": "ngt-page",
+        "body": [
+            "import { Component, OnInit } from '@angular/core';",
+            "import { PageRoute } from '@angular-template/core';",
+            "",
+            "import { name as layoutName } from '@app/common/layouts/main/main.layout;",
+            "",
+            "@Component({",
+            "    templateUrl: './$1.html'",
+            "})",
+            "export class ${2:ClassName}Page implements OnInit {",
+            "    constructor() {",
+            "    }",
+            "",
+            "    ngOnInit() {",
+            "    }",
+            "}",
+            "",
+            "export const route: PageRoute = {",
+            "    path: '$1',",
+            "    component: $2Page,",
+            "    layout: layoutName",
+            "};"
+        ],
+        "description": "Generates an empty page component"
+    },
+    "Angular layout": {
+        "prefix": "ngt-layout",
+        "body": [
+            "import { Component } from '@angular/core';",
+            "",
+            "@Component({",
+            "    templateUrl: './$1.html'",
+            "})",
+            "export class ${2:ClassName}Layout {",
+            "}",
+            "",
+            "export const name = '$1';"
+        ],
+        "description": "Generates an empty layout component"
+    },
+    "Angular component": {
+        "prefix": "ngt-comp",
+        "body": [
+            "import { Component } from '@angular/core';",
+            "",
+            "export const name = 'rpos-$1';",
+            "",
+            "@Component({",
+            "    selector: name,",
+            "    templateUrl: './$1.html'",
+            "})",
+            "export class ${2:ClassName}Component {",
+            "}"
+        ],
+        "description": "Generates an empty component"
+    }
+}

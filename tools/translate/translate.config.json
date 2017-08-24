@@ -1,0 +1,14 @@
+{
+    "languages": ["en", "hi"],
+
+    "appDir": "./src/app",
+
+    "outputs": {
+        "en": ["../theme-builder/themes/tavant/i18n/en.json"],
+        "hi": ["../theme-builder/themes/cmg/i18n/en.json"]
+    },
+
+    "modules": {
+        "common": "cmn"
+    }
+}

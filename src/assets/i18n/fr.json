@@ -1,0 +1,26 @@
+{
+  "HOME": {
+    "TITLE": "Bonjour Angular 2 avec ng2-translate !",
+    "SELECT": "Changer la langue"
+  },
+  "Namrata": {
+    "TITLE": "Bonjour!!",
+    "SELECT": "Change language"
+  },
+ 
+    "HELLO": "Bonjour {{value}}",
+    "SCHEME": "Bonjour Angular js1",
+    "FIRSTNAME":{
+      "FIRSTKEY": "Prénom",
+      "LASTKEY": "Nom de famille"
+    },
+     "BUTTON":"enviar",
+       "Notes":"Notas",
+       "Clear":"claro",
+    "Add":"añadir",
+    "ConversationTopic":"Tema's de conversación",
+    "note.updated-at": "Aktualizováno: {{date}}",
+    "note.created-at": "Vytvořeno: {{date}}",
+     "currency":"&"
+    
+}
